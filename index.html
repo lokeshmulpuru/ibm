@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lokesh</title>
+  <style>
+    :root { --bg:#fff; --fg:#1a1a1a; --muted:#666; --accent:#2563eb; --card:#f5f6f8; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg:#0f1115; --fg:#e8e8e8; --muted:#9aa0a6; --accent:#6ea8ff; --card:#1a1d24; }
+    }
+    * { box-sizing: border-box; }
+    body { margin:0; background:var(--bg); color:var(--fg);
+           font:16px/1.6 system-ui,-apple-system,Segoe UI,sans-serif; }
+    main { max-width:640px; margin:0 auto; padding:64px 16px; }
+    h1 { font-size:2rem; margin:0 0 4px; }
+    .tag { color:var(--muted); margin:0 0 32px; }
+    h2 { font-size:1.1rem; margin:40px 0 12px; }
+    .card { background:var(--card); border-radius:10px; padding:16px; margin-bottom:12px; }
+    .card h3 { margin:0 0 4px; font-size:1rem; }
+    .card p { margin:0; color:var(--muted); }
+    a { color:var(--accent); text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    footer { margin-top:48px; color:var(--muted); font-size:.9rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Hi, I'm Lokesh</h1>
+    <p class="tag">Software developer exploring multi-agent AI systems.</p>
+
+    <h2>About</h2>
+    <p>I build software and experiment with LLM agents that work together. Edit this text to say more about you.</p>
+
+    <h2>Projects</h2>
+    <div class="card">
+      <h3>Project one</h3>
+      <p>A short description of what it does. <a href="#">View on GitHub</a></p>
+    </div>
+    <div class="card">
+      <h3>Project two</h3>
+      <p>Another short description. <a href="#">View on GitHub</a></p>
+    </div>
+
+    <h2>Contact</h2>
+    <p><a href="mailto:lokesh.mullpuri@gmail.com">lokesh.mullpuri@gmail.com</a></p>
+
+    <footer>Built with plain HTML and hosted on GitHub Pages.</footer>
+  </main>
+</body>
+</html>
